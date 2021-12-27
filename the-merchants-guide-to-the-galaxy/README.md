@@ -1,4 +1,4 @@
-# The Merchant's Guide to the Galaxy
+# The Merchant's Guide to the Galaxy 
 
 A merchant buys and sells items in the galaxy. Buying and selling over the galaxy requires you to convert numbers and units. The numbers used for intergalactic transactions follows similar convention to the roman numerals. Roman numerals are based on seven symbols:
 
