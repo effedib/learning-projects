@@ -1,3 +1,9 @@
+/*
+function find_palin_substr:
+- Finds if a string contains a palindrome substring.
+- Returns the substring, the starting index and the length.
+- If there are more than 1 palin subs, returns the longest.
+*/
 function find_palin_substr (string: string, start: number, low: number, high: number, length: number, max_length: number) {
     while (low >= 0 && high < length && (string[low] === string[high])) {
         low -= 1;
@@ -15,6 +21,12 @@ function find_palin_substr (string: string, start: number, low: number, high: nu
     return [string.slice(start, start + max_length), start, max_length]
 }
 
+/*
+function find_long_palin_substr:
+- for every index in a string, calls find_palin_substr to determine if there is at least 1 palindrom substring.
+- we have to manage two cases, using the index as the center of the string, because the string can have an odd or even length.
+- returns the longest palin subs between odds and evens.
+*/
 function find_long_palin_substr (string: string) {
     
     let max_length: number = 1;
