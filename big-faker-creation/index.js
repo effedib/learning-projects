@@ -8,10 +8,10 @@ I made it using two differents techniques:
 */
 
 // appendFake uses the append method
-const { appendFake } = require("./appendFakeData");
+const { appendFake } = require("./src/appendFakeData");
 
 // writeFakeDataStreams uses the streams method
-const { writeFakeDataStreams } = require("./writeFakeDataStreams");
+const { writeFakeDataStreams } = require("./src/writeFakeDataStreams");
 
 
 // ask to user which option prefers and call the function
