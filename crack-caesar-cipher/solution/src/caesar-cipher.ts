@@ -1,3 +1,5 @@
+
+// Encode is the base function, we can encode every text using a known shift factor.
 function encode(word: string, shift: number) {
 
   const alphabetLength = 26;
@@ -25,4 +27,5 @@ function encode(word: string, shift: number) {
 }
 
 
+// Reversing the shift factor, we can use the same function to decode the text.
 export function decode(word: string, shift: number) {return encode(word, -shift)}

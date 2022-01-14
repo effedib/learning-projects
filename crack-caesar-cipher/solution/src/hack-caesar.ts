@@ -1,3 +1,9 @@
+/*
+getShiftFactor is the main function, counts every letter recurrency storing in an array, sort it and use the higher recurrency to determine the shift factor.
+After we have the shift factor, we can use the same algorithm to create an encoded text, to decode it.
+*/
+
+
 import {decode} from './caesar-cipher'
 
 //string representing letters in order of statistic use in english alphabet
@@ -23,6 +29,8 @@ function getShiftFactor (message: string) {
 
 }
 
+
 export function crackCaesar (message: string) {
+  // we can use the same algorithm to create an encoded text, to decode it
   return decode(message, getShiftFactor(message))
 }

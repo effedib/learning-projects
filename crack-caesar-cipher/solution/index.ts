@@ -1,4 +1,10 @@
-import {crackCaesar} from './hack-caesar'
+/*
+Project Entry Point.
+
+For every book in cases folder, reads the file, call the crackCaesar function, then write the decripted data.
+*/
+
+import {crackCaesar} from './src/hack-caesar'
 
 const fs = require('fs')
 const folder: string = '../../cases/'
