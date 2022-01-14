@@ -1,6 +1,6 @@
 FROM python:3.9.6
 
-COPY ./solutions/fdb86 /myapp
+COPY . .
 WORKDIR /myapp
 
-ENTRYPOINT ["python", "merchants-guide-to-the-galaxy.py"]
+ENTRYPOINT ["python", "main.py"]

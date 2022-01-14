@@ -1,5 +1,5 @@
 from re import search
-from main.bot import Bot
+from source.bot import Bot
 
 
 class InputBot:
