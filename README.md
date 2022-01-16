@@ -23,3 +23,4 @@
 | 2     | [Crack-Caesar-Cipher](https://github.com/fdb86/learning-projects/tree/main/crack-caesar-cipher)                                               | [Typescript]              |
 | 3     | [Longest-Palindromic-Substring](https://github.com/fdb86/learning-projects/tree/main/longest-palindromic-substring)                                             | [Typescript]                  |
 | 4     | [The-Merchants-Guide-To-The-Galaxy](https://github.com/fdb86/learning-projects/tree/main/the-merchants-guide-to-the-galaxy)                                                       | [Python]                  |
+| 5     | [Lotto_Game](https://github.com/fdb86/learning-projects/tree/main/lotto_game)                                                       | [Python]                  |
